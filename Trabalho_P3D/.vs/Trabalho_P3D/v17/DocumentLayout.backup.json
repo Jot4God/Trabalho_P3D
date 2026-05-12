@@ -1,0 +1,325 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\Trabalho_P3D\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D07A08F3-F046-42D6-84AF-3648D1EDE622}|Trabalho_P3D\\Trabalho_P3D.vcxproj|C:\\Users\\User\\source\\repos\\Trabalho_P3D\\Trabalho_P3D\\assets\\table_D.tga||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{D07A08F3-F046-42D6-84AF-3648D1EDE622}|Trabalho_P3D\\Trabalho_P3D.vcxproj|solutionrelative:Trabalho_P3D\\assets\\table_D.tga||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D07A08F3-F046-42D6-84AF-3648D1EDE622}|Trabalho_P3D\\Trabalho_P3D.vcxproj|C:\\Users\\User\\source\\repos\\Trabalho_P3D\\Trabalho_P3D\\assets\\model_D.tga||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{D07A08F3-F046-42D6-84AF-3648D1EDE622}|Trabalho_P3D\\Trabalho_P3D.vcxproj|solutionrelative:Trabalho_P3D\\assets\\model_D.tga||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D07A08F3-F046-42D6-84AF-3648D1EDE622}|Trabalho_P3D\\Trabalho_P3D.vcxproj|C:\\Users\\User\\source\\repos\\Trabalho_P3D\\Trabalho_P3D\\assets\\table.obj||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{D07A08F3-F046-42D6-84AF-3648D1EDE622}|Trabalho_P3D\\Trabalho_P3D.vcxproj|solutionrelative:Trabalho_P3D\\assets\\table.obj||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D07A08F3-F046-42D6-84AF-3648D1EDE622}|Trabalho_P3D\\Trabalho_P3D.vcxproj|C:\\Users\\User\\source\\repos\\Trabalho_P3D\\Trabalho_P3D\\assets\\model.obj||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{D07A08F3-F046-42D6-84AF-3648D1EDE622}|Trabalho_P3D\\Trabalho_P3D.vcxproj|solutionrelative:Trabalho_P3D\\assets\\model.obj||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D07A08F3-F046-42D6-84AF-3648D1EDE622}|Trabalho_P3D\\Trabalho_P3D.vcxproj|C:\\Users\\User\\source\\repos\\Trabalho_P3D\\Trabalho_P3D\\src\\Light.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D07A08F3-F046-42D6-84AF-3648D1EDE622}|Trabalho_P3D\\Trabalho_P3D.vcxproj|solutionrelative:Trabalho_P3D\\src\\Light.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D07A08F3-F046-42D6-84AF-3648D1EDE622}|Trabalho_P3D\\Trabalho_P3D.vcxproj|C:\\Users\\User\\source\\repos\\Trabalho_P3D\\Trabalho_P3D\\src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D07A08F3-F046-42D6-84AF-3648D1EDE622}|Trabalho_P3D\\Trabalho_P3D.vcxproj|solutionrelative:Trabalho_P3D\\src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D07A08F3-F046-42D6-84AF-3648D1EDE622}|Trabalho_P3D\\Trabalho_P3D.vcxproj|C:\\Users\\User\\source\\repos\\Trabalho_P3D\\Trabalho_P3D\\src\\Material.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D07A08F3-F046-42D6-84AF-3648D1EDE622}|Trabalho_P3D\\Trabalho_P3D.vcxproj|solutionrelative:Trabalho_P3D\\src\\Material.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\game_engine_p3d_fase8\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\xutility||{3B902123-F8A7-4915-9F01-361F908088D0}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\xlocale||{3B902123-F8A7-4915-9F01-361F908088D0}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\game_engine_p3d_fase8\\Light.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\game_engine_p3d_fase8\\Object.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\game_engine_p3d_fase8\\Common.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\game_engine_p3d_fase8\\Camera.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\game_engine_p3d_fase8\\Material.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\game_engine_p3d_fase8\\Material.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\game_engine_p3d_fase8\\Object.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\game_engine_p3d_fase8\\Mesh.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\game_engine_p3d_fase8\\Light.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\game_engine_p3d_fase8\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "table.obj",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Trabalho_P3D\\Trabalho_P3D\\assets\\table.obj",
+              "RelativeDocumentMoniker": "Trabalho_P3D\\assets\\table.obj",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Trabalho_P3D\\Trabalho_P3D\\assets\\table.obj",
+              "RelativeToolTip": "Trabalho_P3D\\assets\\table.obj",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEWSURBVDhPpZNBjoQgEEW/ZFaGRR/FOUITliZeYY7AKdgOh2FJ4hW8iS6w3FmzEQaJ9nQyb6VF/U/5QaAixtgR0UxEc4yxq9dPMPPpPYmttWyt5bdMEqVYKcVKqbdMGhxiIcTonHuEEE4NWmsYY5Z9359SyimZSSknABCvxDWpVwgxJqOGiOY78bH7qeacA4A81cdptSKEgCvjg4cxZhT7vj\u002BNMYvWOq9oreG9h/ceAOC9xzAMhfYXIaWcSpMitM\u002BycV3X/FwGm4tXF4iIWCnFRMRExMX94G3bvgBAJIM0STqu7FyQAnXOgZm/Y4xdUzeVEBH3fV\u002BXgeIz8gR3pDBvQ6wLJW3bNkeYy58hvuJfP1ni6pQA4AcGJQ1OVqoa1QAAAABJRU5ErkJggg==",
+              "WhenOpened": "2026-05-12T16:09:56.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "model.obj",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Trabalho_P3D\\Trabalho_P3D\\assets\\model.obj",
+              "RelativeDocumentMoniker": "Trabalho_P3D\\assets\\model.obj",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Trabalho_P3D\\Trabalho_P3D\\assets\\model.obj",
+              "RelativeToolTip": "Trabalho_P3D\\assets\\model.obj",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEWSURBVDhPpZNBjoQgEEW/ZFaGRR/FOUITliZeYY7AKdgOh2FJ4hW8iS6w3FmzEQaJ9nQyb6VF/U/5QaAixtgR0UxEc4yxq9dPMPPpPYmttWyt5bdMEqVYKcVKqbdMGhxiIcTonHuEEE4NWmsYY5Z9359SyimZSSknABCvxDWpVwgxJqOGiOY78bH7qeacA4A81cdptSKEgCvjg4cxZhT7vj\u002BNMYvWOq9oreG9h/ceAOC9xzAMhfYXIaWcSpMitM\u002BycV3X/FwGm4tXF4iIWCnFRMRExMX94G3bvgBAJIM0STqu7FyQAnXOgZm/Y4xdUzeVEBH3fV\u002BXgeIz8gR3pDBvQ6wLJW3bNkeYy58hvuJfP1ni6pQA4AcGJQ1OVqoa1QAAAABJRU5ErkJggg==",
+              "WhenOpened": "2026-05-12T16:09:50.536Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Light.cpp",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Trabalho_P3D\\Trabalho_P3D\\src\\Light.cpp",
+              "RelativeDocumentMoniker": "Trabalho_P3D\\src\\Light.cpp",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Trabalho_P3D\\Trabalho_P3D\\src\\Light.cpp",
+              "RelativeToolTip": "Trabalho_P3D\\src\\Light.cpp",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-05-12T04:31:48.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Trabalho_P3D\\Trabalho_P3D\\src\\main.cpp",
+              "RelativeDocumentMoniker": "Trabalho_P3D\\src\\main.cpp",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Trabalho_P3D\\Trabalho_P3D\\src\\main.cpp",
+              "RelativeToolTip": "Trabalho_P3D\\src\\main.cpp",
+              "ViewState": "AgIAAI0AAAAAAAAAAADwv7IAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-05-12T04:11:20.821Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "model_D.tga",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Trabalho_P3D\\Trabalho_P3D\\assets\\model_D.tga",
+              "RelativeDocumentMoniker": "Trabalho_P3D\\assets\\model_D.tga",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Trabalho_P3D\\Trabalho_P3D\\assets\\model_D.tga",
+              "RelativeToolTip": "Trabalho_P3D\\assets\\model_D.tga",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2026-05-12T03:54:35.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Light.cpp",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\game_engine_p3d_fase8\\Light.cpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\Desktop\\game_engine_p3d_fase8\\Light.cpp",
+              "ToolTip": "C:\\Users\\User\\Desktop\\game_engine_p3d_fase8\\Light.cpp",
+              "RelativeToolTip": "..\\..\\..\\Desktop\\game_engine_p3d_fase8\\Light.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-05-12T03:49:53.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Object.h",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\game_engine_p3d_fase8\\Object.h",
+              "RelativeDocumentMoniker": "..\\..\\..\\Desktop\\game_engine_p3d_fase8\\Object.h",
+              "ToolTip": "C:\\Users\\User\\Desktop\\game_engine_p3d_fase8\\Object.h",
+              "RelativeToolTip": "..\\..\\..\\Desktop\\game_engine_p3d_fase8\\Object.h",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAE0AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-05-12T02:26:25.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Common.h",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\game_engine_p3d_fase8\\Common.h",
+              "RelativeDocumentMoniker": "..\\..\\..\\Desktop\\game_engine_p3d_fase8\\Common.h",
+              "ToolTip": "C:\\Users\\User\\Desktop\\game_engine_p3d_fase8\\Common.h",
+              "RelativeToolTip": "..\\..\\..\\Desktop\\game_engine_p3d_fase8\\Common.h",
+              "ViewState": "AgIAAF4AAAAAAAAAAADwv2wAAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-05-12T01:47:07.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\game_engine_p3d_fase8\\main.cpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\Desktop\\game_engine_p3d_fase8\\main.cpp",
+              "ToolTip": "C:\\Users\\User\\Desktop\\game_engine_p3d_fase8\\main.cpp",
+              "RelativeToolTip": "..\\..\\..\\Desktop\\game_engine_p3d_fase8\\main.cpp",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-05-04T18:18:43.641Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "table_D.tga",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Trabalho_P3D\\Trabalho_P3D\\assets\\table_D.tga",
+              "RelativeDocumentMoniker": "Trabalho_P3D\\assets\\table_D.tga",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Trabalho_P3D\\Trabalho_P3D\\assets\\table_D.tga",
+              "RelativeToolTip": "Trabalho_P3D\\assets\\table_D.tga",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2026-05-12T03:55:50.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Material.cpp",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\Trabalho_P3D\\Trabalho_P3D\\src\\Material.cpp",
+              "RelativeDocumentMoniker": "Trabalho_P3D\\src\\Material.cpp",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\Trabalho_P3D\\Trabalho_P3D\\src\\Material.cpp",
+              "RelativeToolTip": "Trabalho_P3D\\src\\Material.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-05-12T04:27:23.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Camera.cpp",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\game_engine_p3d_fase8\\Camera.cpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\Desktop\\game_engine_p3d_fase8\\Camera.cpp",
+              "ToolTip": "C:\\Users\\User\\Desktop\\game_engine_p3d_fase8\\Camera.cpp",
+              "RelativeToolTip": "..\\..\\..\\Desktop\\game_engine_p3d_fase8\\Camera.cpp",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-05-12T00:55:02.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Material.cpp",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\game_engine_p3d_fase8\\Material.cpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\Desktop\\game_engine_p3d_fase8\\Material.cpp",
+              "ToolTip": "C:\\Users\\User\\Desktop\\game_engine_p3d_fase8\\Material.cpp",
+              "RelativeToolTip": "..\\..\\..\\Desktop\\game_engine_p3d_fase8\\Material.cpp",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAkwIkAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-05-12T00:15:54.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Material.h",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\game_engine_p3d_fase8\\Material.h",
+              "RelativeDocumentMoniker": "..\\..\\..\\Desktop\\game_engine_p3d_fase8\\Material.h",
+              "ToolTip": "C:\\Users\\User\\Desktop\\game_engine_p3d_fase8\\Material.h",
+              "RelativeToolTip": "..\\..\\..\\Desktop\\game_engine_p3d_fase8\\Material.h",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAIwFEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-05-12T01:45:07.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Object.cpp",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\game_engine_p3d_fase8\\Object.cpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\Desktop\\game_engine_p3d_fase8\\Object.cpp",
+              "ToolTip": "C:\\Users\\User\\Desktop\\game_engine_p3d_fase8\\Object.cpp",
+              "RelativeToolTip": "..\\..\\..\\Desktop\\game_engine_p3d_fase8\\Object.cpp",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-05-12T01:31:24.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Mesh.h",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\game_engine_p3d_fase8\\Mesh.h",
+              "RelativeDocumentMoniker": "..\\..\\..\\Desktop\\game_engine_p3d_fase8\\Mesh.h",
+              "ToolTip": "C:\\Users\\User\\Desktop\\game_engine_p3d_fase8\\Mesh.h",
+              "RelativeToolTip": "..\\..\\..\\Desktop\\game_engine_p3d_fase8\\Mesh.h",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-05-12T01:29:58.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Light.h",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\game_engine_p3d_fase8\\Light.h",
+              "RelativeDocumentMoniker": "..\\..\\..\\Desktop\\game_engine_p3d_fase8\\Light.h",
+              "ToolTip": "C:\\Users\\User\\Desktop\\game_engine_p3d_fase8\\Light.h",
+              "RelativeToolTip": "..\\..\\..\\Desktop\\game_engine_p3d_fase8\\Light.h",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-05-12T01:29:52.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Game.cpp",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\game_engine_p3d_fase8\\Game.cpp",
+              "RelativeDocumentMoniker": "..\\..\\..\\Desktop\\game_engine_p3d_fase8\\Game.cpp",
+              "ToolTip": "C:\\Users\\User\\Desktop\\game_engine_p3d_fase8\\Game.cpp",
+              "RelativeToolTip": "..\\..\\..\\Desktop\\game_engine_p3d_fase8\\Game.cpp",
+              "ViewState": "AgIAAMEAAAAAAAAAAAAwwLAAAAB7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-05-12T00:30:51.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "xutility",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\xutility",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\xutility",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\xutility",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\xutility",
+              "ViewState": "AgIAAA8CAAAAAAAAAAAAADsCAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-05-12T00:42:38.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "xlocale",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\xlocale",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\xlocale",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\xlocale",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\xlocale",
+              "ViewState": "AgIAABwBAAAAAAAAAAAiwDgBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-05-12T00:18:46.365Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
