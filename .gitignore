@@ -1,0 +1,18 @@
+# Ignorar ficheiros IPCH e a pasta local do Visual Studio e Pastas e ficheiros locais do Visual Studio
+
+.vs/
+ipch/
+*.user
+*.suo
+*.db
+*.ipch
+
+# Ficheiros temporários e lixo de compilação
+*.obj
+*.pdb
+*.ilk
+*.idb
+*.tlog
+*.lastbuildstate
+*.iobj
+*.ipdb
