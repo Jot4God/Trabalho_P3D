@@ -6,7 +6,8 @@
 #include "Light.h"
 #include "Object.h"
 #include "Shader.h"
-#include "Renderer.h" // Inclui a classe 'Renderer', que define o renderizador a associar a cada objeto do jogo
+#include "Renderer.h" // Inclui a classe 'Renderer', que define o renderizador a associar a cada objeto do jogo~~
+#include "BallMovement.h"
 
 // ------------------------------------------------------------
 // É aqui que se incluem as suas classes de comportamento personalizados
@@ -164,13 +165,14 @@ int main() {
 	Renderer* ballrenderer13 = new Renderer(shader, "Ball13.obj");
 	Renderer* ballrenderer14 = new Renderer(shader, "Ball14.obj");
 	Renderer* ballrenderer15 = new Renderer(shader, "Ball15.obj");
-	
+
 
 	// --------------------------------------------------
 	// Preparação do(s) comportamento(s) do(s) objeto(s)
 	// --------------------------------------------------
 	// Cria uma instância do comportamento Oscilator
 	Oscilator* oscilator = new Oscilator();
+	BallMovement* ballMovement = new BallMovement();
 
 	// --------------------------------------------------
 	// Preparação do(s) objeto(s) do jogo
@@ -181,9 +183,9 @@ int main() {
 	// Atribui um renderizador ao objeto, que será usado para renderizar o objeto no jogo
 	// Define a posição do objeto como (0, -4, 0), no sistema de coordenadas local, com orientação e escala padrão
 	gep3d::Object* table = new gep3d::Object("table", "", nullptr, tablerenderer, 0.0f, -2.0f, 0.0f);
-	
+
 	// FILA 1
-	gep3d::Object* ball1 = new gep3d::Object("Ball1", "", nullptr, ballrenderer1, -0.8f, -1.90f, -0.18f);
+	gep3d::Object* ball1 = new gep3d::Object("Ball1", "", ballMovement, ballrenderer1, -0.8f, -1.90f, -0.18f);
 
 	// FILA 2
 	gep3d::Object* ball2 = new gep3d::Object("Ball2", "", nullptr, ballrenderer2, -0.4f, -1.90f, -0.38f);
@@ -206,7 +208,7 @@ int main() {
 	gep3d::Object* ball13 = new gep3d::Object("Ball13", "", nullptr, ballrenderer13, 0.8f, -1.90f, -0.18f);
 	gep3d::Object* ball14 = new gep3d::Object("Ball14", "", nullptr, ballrenderer14, 0.8f, -1.90f, 0.22f);
 	gep3d::Object* ball15 = new gep3d::Object("Ball15", "", nullptr, ballrenderer15, 0.8f, -1.90f, 0.62f);
-	
+
 	// Tranformar o tamanho  das bolas 
 	ball1->model().Scale(0.1f, 0.1f, 0.1f);
 	ball2->model().Scale(0.1f, 0.1f, 0.1f);
@@ -228,7 +230,7 @@ int main() {
 
 	LOG("Object created with ID: " << table->id() << " at position: (0, -2, 0).");
 	LOG("Object created with ID: " << ball1->id() << " at position: (-2, -1.75, 0).");
-	
+
 	// --------------------------------------------------
 	// Adiciona o(s) objeto(s) ao jogo
 	// --------------------------------------------------
@@ -261,8 +263,9 @@ int main() {
 	delete tablerenderer; // Liberta a memória alocada para o renderizador
 	delete ballrenderer1;
 	delete oscilator;	// Liberta a memória alocada para o comportamento
+	delete ballMovement;
 	delete table;	// Liberta a memória alocada para o objeto
-		// Liberta a memória alocada para o objeto
+	// Liberta a memória alocada para o objeto
 
 	LOG("Exit!");
 
