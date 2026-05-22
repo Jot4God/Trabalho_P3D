@@ -58,7 +58,7 @@ constexpr bool kRequiresForwardCompat = false;
 // ------------------------------------------------------------
 // Configuração de debug (deve-se usar #define para funcionar com #if)
 // ------------------------------------------------------------
-#define kDebugMode 1								// Modo de depuração (1=ativado, 0=desativado).
+#define kDebugMode 0								// Modo de depuração (1=ativado, 0=desativado).
 
 
 // ------------------------------------------------------------

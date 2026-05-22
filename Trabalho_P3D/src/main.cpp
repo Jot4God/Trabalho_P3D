@@ -78,7 +78,7 @@ int main() {
 	// Luz ambiente global fraca.
 // Serve só para as zonas em sombra não ficarem completamente pretas.
 	gep3d::Light* ambient_light = new gep3d::Light(
-		glm::vec3(0.15f, 0.15f, 0.15f) // Cor da luz ambiente, um cinzento escuro para criar um ambiente mais realista, sem iluminar tudo como uma luz global forte.
+		glm::vec3(0.3f, 0.3f, 0.3f) // Cor da luz ambiente, um cinzento escuro para criar um ambiente mais realista, sem iluminar tudo como uma luz global forte.
 	);
 
 	// Luz direcional suave, tipo luz geral da sala.

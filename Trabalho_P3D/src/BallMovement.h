@@ -21,7 +21,7 @@ private:
 
 	// Movimento por frame.
 	// Como o teu Update() não recebe deltaTime, usamos velocidade fixa por frame.
-	float speed_ = 0.2f;
+	float speed_ = 0.03f;
 
 	// Raio aproximado da bola no mundo.
 	// Se a bola parar antes de tocar, baixa para 0.16f.
