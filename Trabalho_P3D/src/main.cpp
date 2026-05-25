@@ -170,7 +170,7 @@ int main() {
 	// --------------------------------------------------
 	// Preparação do(s) comportamento(s) do(s) objeto(s)
 	// --------------------------------------------------
-	// Cria uma instância do comportamento Oscilator
+	// Cria uma instância do comportamento Oscilator e ballMovement
 	Oscilator* oscilator = new Oscilator();
 	BallMovement* ballMovement = new BallMovement();
 
@@ -261,11 +261,10 @@ int main() {
 	// --------------------------------------------------
 	delete shader;		// Liberta a memória alocada para o shader	
 	delete tablerenderer; // Liberta a memória alocada para o renderizador
-	delete ballrenderer1;
+	delete ballrenderer1; // Liberta a memória alocada para o renderizador
 	delete oscilator;	// Liberta a memória alocada para o comportamento
-	delete ballMovement;
+	delete ballMovement; // Liberta a memória alocada para o comportamento
 	delete table;	// Liberta a memória alocada para o objeto
-	// Liberta a memória alocada para o objeto
 
 	LOG("Exit!");
 

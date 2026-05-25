@@ -120,15 +120,18 @@ namespace game_engine_p3d {
 		}
 		return nullptr; // Retorna nullptr se o objeto não for encontrado
 	}
-	//novo
+
 	void Game::ProcessLightInput() {
 		GLFWwindow* window = window_system_.window();
 
+		// Função lambda auxiliar para procurar todas as luzes de um determinado tipo e alternar o seu estado
 		auto ToggleLightByType = [this](LightType type) {
 			for (auto light : lights_) {
+				// Verifica se o ponteiro é válido e se o tipo de luz corresponde ao solicitado
 				if (light != nullptr && light->type() == type) {
-					light->Toggle();
+					light->Toggle(); // Chama o método Toggle() da luz
 
+					// Imprime na consola o feedback visual do novo estado da luz (ON/OFF)
 					std::cout << light->type_string()
 						<< " light: "
 						<< (light->enabled() ? "ON" : "OFF")
@@ -137,11 +140,14 @@ namespace game_engine_p3d {
 			}
 			};
 
+		// Regista o estado atual das teclas neste frame
 		bool key1 = glfwGetKey(window, GLFW_KEY_1) == GLFW_PRESS;
 		bool key2 = glfwGetKey(window, GLFW_KEY_2) == GLFW_PRESS;
 		bool key3 = glfwGetKey(window, GLFW_KEY_3) == GLFW_PRESS;
 		bool key4 = glfwGetKey(window, GLFW_KEY_4) == GLFW_PRESS;
 
+		// Verifica se a tecla foi pressionada
+		// A condição !key_x_was_pressed_ evita que a luz pisque continuamente enquanto a tecla for mantida premida.
 		if (key1 && !key_1_was_pressed_) {
 			ToggleLightByType(LightType::kAmbient);
 		}
@@ -158,6 +164,7 @@ namespace game_engine_p3d {
 			ToggleLightByType(LightType::kSpotlight);
 		}
 
+		// Guarda o estado atual das teclas para servir de comparação no próximo frame
 		key_1_was_pressed_ = key1;
 		key_2_was_pressed_ = key2;
 		key_3_was_pressed_ = key3;
@@ -183,8 +190,7 @@ namespace game_engine_p3d {
 
 				// 1. Processa a entrada do utilizador
 				window_system_.ProcessInput();
-				//novo
-				ProcessLightInput();
+				ProcessLightInput();// Isto é o que permite ligar/desligar as luzes em tempo real enquanto o programa está a correr.
 
 				// 2. Atualização do jogo (comportamentos, física, etc.)
 				{

@@ -88,10 +88,10 @@ namespace game_engine_p3d {
 		void set_outerCutOff(float outerCutOff) { outerCutOff_ = outerCutOff; }
 		std::vector<Layer>& light_layers() { return light_layers_; } // Retorna as layers que a luz afeta
 		bool IsInLayer(Layer layer) const; // Verifica se a luz afeta uma layer específica
-		//novo
-		bool enabled() const { return enabled_; } // Enables para as luzes
-		void set_enabled(bool enabled) { enabled_ = enabled; }
-		void Toggle() { enabled_ = !enabled_; }
+		// Controlo do estado da luz (ligado/desligado)
+		bool enabled() const { return enabled_; } // Devolve o estado atual da luz
+		void set_enabled(bool enabled) { enabled_ = enabled; } // Força a luz a ligar (true) ou desligar (false)
+		void Toggle() { enabled_ = !enabled_; } // Alterna o estado da luz
 		// ------------------------------------------------------------
 		// Outras funções-membro
 		// ------------------------------------------------------------
@@ -102,7 +102,7 @@ namespace game_engine_p3d {
 		// Dados-membro privados
 		// ------------------------------------------------------------
 		LightType type_ = LightType::kPoint; // Tipo de luz (padrão: luz pontual)
-		//novo
+	
 		bool enabled_ = true; // Indica se a luz está ativa ou não (padrão: ativa)
 		glm::vec3 position_ = glm::vec3(0.0f); // Posição da luz (relevante para luzes pontuais e spot)
 		glm::vec3 direction_ = glm::vec3(0.0f, -1.0f, 0.0f); // Direção da luz (relevante para luzes direcionais e spot)

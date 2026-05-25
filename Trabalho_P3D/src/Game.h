@@ -68,8 +68,8 @@ namespace game_engine_p3d {
 		// Funções-membro privadas
 		// ------------------------------------------------------------
 		void FrameRateControl(double fps); // Função para controlar a taxa de frames do jogo.
-		//novo
-		void ProcessLightInput();
+
+		void ProcessLightInput();// Função para processar a entrada do utilizador relacionada com as luzes do jogo.
 
 		// ------------------------------------------------------------
 		// Dados-membro privados
@@ -88,7 +88,8 @@ namespace game_engine_p3d {
 		std::vector<Light*> lights_{};			// Vetor de apontadores para luzes no jogo (um jogo pode ter várias luzes).
 		// NOTE: Relação de "agregação" de 'Game' com 'Object' (i.e., 'Game' possui uma coleção de objetos do jogo). Os objetos podem existir independentemente do jogo.
 		std::vector<Object*> objects_{};		// Vetor de apontadores para objetos no jogo.
-		//novos
+
+		// Isto evita que o jogo processe a entrada de luzes e objetos a cada fram.
 		bool key_1_was_pressed_ = false;
 		bool key_2_was_pressed_ = false;
 		bool key_3_was_pressed_ = false;

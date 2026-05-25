@@ -1,7 +1,7 @@
 #define GLEW_STATIC // Definição necessária, antes de incluir 'GL\glew.h', sempre que se usa GLEW como uma biblioteca estática
 #include <GL/glew.h> // Necessário para utilizar a função 'glDrawArrays()'
 #include <glm/gtc/type_ptr.hpp> // Necessário para usar glm::value_ptr()
-#include <glm/gtc/matrix_inverse.hpp> // glm::inverseTranspose()
+#include <glm\gtc\matrix_inverse.hpp> // glm::inverseTranspose()
 
 #include "Common.h"
 #include "Renderer.h"
@@ -68,28 +68,10 @@ namespace game_engine_p3d {
 		glm::mat3 NormalMatrix = glm::inverseTranspose(glm::mat3(modelview));
 
 		// FIXME: adicionar esta string como constante em "Common.h"
-		shader->SetUniform<glm::mat3>("NormalMatrix", NormalMatrix);
+		shader->SetUniform<glm::mat3>("NormalMatrix", modelview);
 
 		// Atualiza a matriz Projection
 		shader->SetUniform<glm::mat4>(kProjectionMatrixName, projection);
-
-
-		// ------------------------------------------------------------
-		// Inicialização da segunda luz pontual
-		// ------------------------------------------------------------
-		// O shader original tem:
-		// uniform PointLight pointLight[2];
-		//
-		// Mas no teu projeto só estás a usar a pointLight[0].
-		// Para evitar valores aleatórios na pointLight[1], colocamos a segunda luz pontual a preto.
-		shader->SetUniform<glm::vec3>("pointLight[1].position", glm::vec3(0.0f));
-		shader->SetUniform<glm::vec3>("pointLight[1].ambient", glm::vec3(0.0f));
-		shader->SetUniform<glm::vec3>("pointLight[1].diffuse", glm::vec3(0.0f));
-		shader->SetUniform<glm::vec3>("pointLight[1].specular", glm::vec3(0.0f));
-		shader->SetUniform<float>("pointLight[1].constant", 1.0f);
-		shader->SetUniform<float>("pointLight[1].linear", 0.0f);
-		shader->SetUniform<float>("pointLight[1].quadratic", 0.0f);
-
 
 		// ------------------------------------------------------------
 		// Para cada luz na lista de luzes fornecida, configura os uniforms no shader
@@ -101,33 +83,19 @@ namespace game_engine_p3d {
 			if (light == nullptr) {
 				continue;
 			}
-
-			// Poderia-se otimizar o código para considerar apenas as luzes mais próximas do objeto, ou as luzes mais relevantes, etc.
-			// Aqui...
-
 			// Se alguma das layers da luz for igual à layer do objeto, configura os uniforms da luz no shader
 			if (light->IsInLayer(layer)) {
 
 				LOG("Configuring a light source of type " << light->type_string());
+				// Envia parâmetros da luz para o shader
 
-				// ------------------------------------------------------------
-				// Sistema de ativar/desativar luzes
-				// ------------------------------------------------------------
-				// Como o light.frag ficou igual ao original, não usamos uniforms do tipo:
-				// ambientLight.enabled
-				// directionalLight.enabled
-				// pointLight[0].enabled
-				// spotLight.enabled
-				//
-				// Em vez disso:
-				// - se a luz estiver ligada, enviamos as cores normais;
-				// - se a luz estiver desligada, enviamos preto (0,0,0).
-				//
+				// Obtém o shader do material
+				Shader* shader = material_.shader();
+
 				// Assim, visualmente, a luz deixa de contribuir para a iluminação.
 				glm::vec3 ambient = light->enabled() ? light->ambient() : glm::vec3(0.0f);
 				glm::vec3 diffuse = light->enabled() ? light->diffuse() : glm::vec3(0.0f);
 				glm::vec3 specular = light->enabled() ? light->specular() : glm::vec3(0.0f);
-
 
 				// ------------------------------------------------------------
 				// Luz ambiente global
@@ -135,7 +103,6 @@ namespace game_engine_p3d {
 				if (light->type() == LightType::kAmbient) {
 					shader->SetUniform<glm::vec3>("ambientLight.ambient", ambient);
 				}
-
 
 				// ------------------------------------------------------------
 				// Luz direcional
@@ -147,7 +114,6 @@ namespace game_engine_p3d {
 					shader->SetUniform<glm::vec3>("directionalLight.specular", specular);
 				}
 
-
 				// ------------------------------------------------------------
 				// Luz pontual
 				// ------------------------------------------------------------
@@ -156,12 +122,11 @@ namespace game_engine_p3d {
 					shader->SetUniform<glm::vec3>("pointLight[0].position", light->position());
 					shader->SetUniform<glm::vec3>("pointLight[0].ambient", ambient);
 					shader->SetUniform<glm::vec3>("pointLight[0].diffuse", diffuse);
-					shader->SetUniform<glm::vec3>("pointLight[0].specular", specular);
+					shader->SetUniform<glm::vec3>("pointLight[0].specular", specular);	
 					shader->SetUniform<float>("pointLight[0].constant", light->constant());
 					shader->SetUniform<float>("pointLight[0].linear", light->linear());
 					shader->SetUniform<float>("pointLight[0].quadratic", light->quadratic());
 				}
-
 
 				// ------------------------------------------------------------
 				// Luz cónica / spotlight
@@ -176,16 +141,11 @@ namespace game_engine_p3d {
 					shader->SetUniform<float>("spotLight.linear", light->linear());
 					shader->SetUniform<float>("spotLight.quadratic", light->quadratic());
 					shader->SetUniform<float>("spotLight.spotCutoff", light->cutOff());
-
 					// shader->SetUniform<float>("spotLight.spotOuterCutoff", light->outerCutOff());
-
-					// Exponente da luz cónica.
-					// Quanto maior for o valor, mais focada é a luz.
 					shader->SetUniform<float>("spotLight.spotExponent", 12.0f);
 				}
 			}
 		}
-
 
 		// ------------------------------------------------------------
 		// Desenha a malha usando o shader e as propriedades do material
